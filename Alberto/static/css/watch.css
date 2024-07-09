@@ -1,0 +1,725 @@
+body{
+  background-image: url(/static/assets/4853479.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.sticky {
+  background-color: #58595aa1; /* Change this to your desired background color */
+  backdrop-filter: blur(2px);
+}
+
+.navbar {
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust the width as needed */
+    transition: background-color 0.3s ease;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .navbar-collapse {
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Distribute links with even spaces */
+  }
+  
+  .navbar-brand .logo-container{
+    width: 100px;
+  }
+  .nav-item button{
+    padding: 2px;
+  }
+
+  #header{
+    background-image: url(/static/assets/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+#header .text-container{
+    margin-top: 150px ;
+}
+
+#header .image{
+    /* width: 300px; */
+    margin-top: 110px ;
+    animation: tilt 5s infinite;
+}
+@keyframes tilt {
+    0% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+#header .text-container .h7{
+    font-size: 70px;
+}
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #header .show-watch .card{
+    background-color: rgba(255, 255, 255, 0.336);
+    backdrop-filter: blur(5px);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+  }
+#Products{
+  background-image: url(/static/assets/floral-ornamental-abstract-background_52683-30016.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#Products .nav-tabs .navlink{
+  color: black;
+}
+
+#category{
+  margin-bottom: 100px;
+}
+
+#category .cat-box{
+  width: 200px;
+  height: 100px;
+  padding: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#category .cat-box a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+#category .cat-box a:hover{
+  color: white;
+}
+#category .cat-box:hover{
+  background-image: linear-gradient(rgba(0, 0, 1, 0.6), rgba(34, 34, 34, 0.6)),
+    url(/static/assets/luxury-watch-wallpaper-removebg-preview.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+
+  .link{
+    color: white;
+  }
+}
+
+#category .vintage:hover{
+  background-image:linear-gradient(rgba(0, 0, 1, 0.6), rgba(34, 34, 34, 0.6)),
+   url(/static/assets/luxury-watch_1139891-109-removebg-preview.png);
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   .link{
+    color: white;
+  }
+}
+#category .smart:hover{
+  background-image: linear-gradient(rgba(0, 0, 1, 0.6), rgba(34, 34, 34, 0.6)),
+  url(/static/assets/black-watch-with-orange-image-it_633842-5957-removebg-preview.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  .link{
+    color: white;
+  }
+}
+#category .pocket:hover{
+  background-image:linear-gradient(rgba(0, 0, 1, 0.6), rgba(34, 34, 34, 0.6)),
+   url(/static/assets/pexels-photo-277460-removebg-preview.png);
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   .link{
+    color: white;
+  }
+}
+
+#luxury{
+  margin-bottom: 30px;
+}
+
+#luxury .luxu{
+  width: 250px;
+  margin:auto;
+  height: 350px;
+  border-radius:10px ;
+  background-color: rgba(0, 0, 0, 0.616);
+  padding: 0;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* adjust the overlay color */
+  color: #fff; /* adjust the text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* hide the overlay by default */
+  transition: opacity 0.3s; /* add a transition effect */
+}
+
+#luxury .luxu .lux-box1{
+  background-image: url(/static/assets/luxury/pexels-nicida-12157290.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* add this */
+}
+#luxury .lux-box1:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+
+#luxury .luxu .lux-box2{
+  background-image: url(/static/assets/luxury/pexels-pixabay-47856.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* add this */
+}
+#luxury .lux-box2:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+
+#luxury .luxu .lux-box3{
+  background-image: url(/static/assets/luxury/pexels-pixelcop-2799533.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* add this */
+}
+#luxury .lux-box3:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+#luxury .luxu .lux-box4{
+  background-image: url(/static/assets/luxury/pexels-smeet-chaudhari-3563940-5344004.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* add this */
+}
+#luxury .lux-box4:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+
+#vintage{
+  margin-bottom: 30px;
+}
+
+#vintage .luxu{
+  width: 250px;
+  margin: auto;
+  height: 350px;
+  border-radius:10px ;
+  background-color: rgba(0, 0, 0, 0.616);
+  padding: 0;
+}
+
+#vintage .luxu .lux-box1{
+  background-image: url(/static/assets/vintage/pexels-lucanardone-3651587.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* add this */
+
+}
+#vintage .lux-box1:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+
+#vintage .luxu .lux-box2{
+  background-image: url(/static/assets/vintage/pexels-nandkumar-patel-1333170-3083461.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* add this */
+
+}
+#vintage .lux-box2:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+
+#vintage .luxu .lux-box3{
+  background-image: url(/static/assets/vintage/pexels-philip-lindvall-300724-1120275.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* add this */
+
+}
+#vintage .lux-box3:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+#vintage .luxu .lux-box4{
+  background-image: url(/static/assets/vintage/pexels-pixabay-277319.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* add this */
+
+}
+#vintage .lux-box4:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+
+#smart{
+  margin-bottom: 30px;
+}
+
+#smart .luxu{
+  width: 250px;
+  margin: auto;
+  height: 350px;
+  border-radius:10px ;
+  background-color: rgba(0, 0, 0, 0.616);
+  padding: 0;
+}
+
+#smart .luxu .lux-box1{
+  background-image: url(/static/assets/smart/pexels-tdcat-437037.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* add this */
+}
+#smart .lux-box1:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+
+
+#smart .luxu .lux-box2{
+  background-image: url(/static/assets/smart/pexels-zeleboba-19871489.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* add this */
+
+}
+#smart .lux-box2:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+
+
+#smart .luxu .lux-box3{
+  background-image: url(/static/assets/smart/rendering-smart-home-device.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* add this */
+
+}
+#smart .lux-box3:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+
+#smart .luxu .lux-box4{
+  background-image: url(/static/assets/smart/smartwatch-screen-digital-device_53876-96833.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* add this */
+}
+#smart .lux-box4:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+
+
+#pocket{
+  margin-bottom: 30px;
+}
+
+#pocket .luxu{
+  width: 250px;
+  margin: auto;
+  height: 350px;
+  border-radius:10px ;
+  background-color: rgba(0, 0, 0, 0.616);
+  padding: 0;
+
+}
+
+#pocket .luxu .lux-box1{
+  background-image: url(/static/assets/pocket/luxury-pendant-design-exquisite-elegant-timeless-statement-piece-fashion-connoisseurs_1020495-151391.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    position: relative; /* add this */
+
+}
+#pocket .lux-box1:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+
+
+#pocket .luxu .lux-box2{
+  background-image: url(/static/assets/pocket/pexels-david-bartus-43782-295884.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    position: relative; /* add this */
+
+}
+#pocket .lux-box2:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+
+
+#pocket .luxu .lux-box3{
+  background-image: url(/static/assets/pocket/pexels-n-i-e-r-o-s-h-o-t-s-149821-3210711.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    position: relative; /* add this */
+
+}
+#pocket .lux-box3:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+
+#pocket .luxu .lux-box4{
+  background-image: url(/static/assets/pocket/small-silver-clock-white-surface\ \(1\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    position: relative; /* add this */
+
+}
+#pocket .lux-box4:hover .overlay {
+  opacity: 1; /* show the overlay on hover */
+}
+
+.technology-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+.technology-card:hover {
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.company-location  {
+  background-color: #53545575;
+  backdrop-filter: blur(3px);
+  padding: 20px;
+}
+.company-location iframe{
+  height: 300px;
+}
+.contact-section {
+  padding: 0 20px;
+}
+.about-section {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#about_contact{
+  background-image: url(/static/assets/dark-texture-watercolor.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 50px;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  #header{
+    height: 500px;
+  }
+  #header .text-container{
+    margin-top: 120px;
+  }
+  #header .text-container .h7{
+    font-size: 40px;
+  }
+  #header .image{
+display: none;
+}
+  #header .show-watch{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  #header .show-watch .card{
+    width: 120px;
+  }
+  #luxury .luxu{
+    margin: 10px auto;
+  }
+  #vintage .luxu{
+    margin: 10px auto;
+  }
+  #smart .luxu{
+    margin: 10px auto;
+  }
+  #pocket .luxu{
+    margin: 10px auto;
+  }
+  .contact-section {
+    padding: 0;
+  }
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+
+.modal-content {
+  background-color: #fff; /* Light background */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px; /* Inner padding */
+  max-width: 500px; /* Adjust width as needed */
+}
+
+.modal-title {
+  font-weight: bold; /* Bold title */
+  margin-bottom: 10px; /* Space below title */
+}
+
+.modal-body {
+  font-size: 16px; /* Clear and readable body text */
+  line-height: 1.5; /* Improved line spacing */
+}
+
+.btn-secondary {
+  background-color: #333; /* Darker button color */
+  color: #fff; /* White button text */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Rounded button corners */
+  padding: 8px 16px; /* Button padding */
+  margin-top: 15px; /* Space above button */
+  cursor: pointer; /* Indicate clickable button */
+}
+
+.btn-secondary:hover {
+  background-color: #222; /* Darker shade on hover */
+}
+.modal-body {
+  display: flex; /* Enable Flexbox layout */
+}
+
+.modal-image-container {
+  flex: 0 0 50%; /* Set width to 50% */
+  margin-right: 10px; /* Add margin between image and info */
+}
+
+.modal-info {
+  flex: 1 1 auto; /* Allow info section to grow */
+  padding: 10px; /* Add padding for readability */
+}
+
+.modal-info h5 {
+  margin-bottom: 5px; /* Space below heading */
+}
+
+
+
+
+

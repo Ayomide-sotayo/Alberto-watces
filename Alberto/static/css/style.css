@@ -1,0 +1,69 @@
+body{
+    background-image: url(/static/assets/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+/* .swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+} */
+
+.bg-transparent {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+  }
+
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust the width as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav img{
+  margin: 10px;
+  width: 100px;
+}
+form{
+    margin-top: 100px;
+}
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.patua-one-regular {
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @media (max-width:767px)
+{
+nav{
+  justify-content: center;
+}
+nav img{
+  margin-top:50px;
+}
+form{
+  margin-top: 100px;
+  text-align: center;
+}
+.text-side{
+  text-align: center;
+}
+.image-section{
+  display: none;
+}
+
+}

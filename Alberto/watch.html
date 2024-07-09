@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alberto Clocks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/watch.css">
+    <link rel="shortcut icon" href="/static/assets/logo (2).png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top ps-3 pe-3">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <div class="logo-container">
+        <img src="/static/assets/logo (2).png" style="width: 60px;" alt="Alberto Clocks Logo">
+      </div>
+    </a>
+    <!-- Navbar Toggler Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#header">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#technology">Technologies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#category">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about_contact">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about_contact">Contact Us</a>
+        </li>
+      </ul>
+      <!-- User Count and Welcome Message -->
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item me-2">
+          <span class="nav-link">User Count: <span id="home-count">0</span></span>
+        </li>
+        <li class="nav-item me-2">
+          <span class="nav-link">
+            <i class="bi bi-person"></i>
+          </span>
+        </li>
+        <li class="nav-item">
+            <span class="nav-link" id="welcome-message"></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <section id="header">
+        <div class="container">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-6 text-container">
+                        <div class="col-sm-12 text-side text-light">
+                        <div class="bree-serif-regular h7 animate__animated animate__jello" >Alberto Clocks</div>
+                        <h3 class="dancing-script">Element Series</h3>
+                        </div>
+                        <div class="col-sm-12 show-watch">
+                            <div class="row">
+                                <div class="col-sm-3 card">
+                                    <span class="nav-link py-3">Luxury</span>
+                                    <img src="/static/assets/luxury-watch-wallpaper-removebg-preview.png" class="w-100 pb-3" alt="">
+                                </div>
+                                <div class="col-sm-3 card mx-2">
+                                    <span class="nav-link py-3">luxury</span>
+                                    <img src="/static/assets/pexels-photo-277460-removebg-preview.png" class="w- pb-3" alt="">
+                                </div>
+                                <div class="col-sm-3 card">
+                                    <span class="nav-link py-3">Vintage</span>
+                                    <img src="/static/assets/modern-eye-catching-wrist-watch-design-with-latest-dials_999195-465-removebg-preview.png" class="w-100 pb-3" alt="">
+                                </div>
+                            </div>
+                            <a class="btn btn-outline-light mt-3" href="#luxury">Explore More</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="col-sm-12 image">
+                            <img src="/static/assets/pexels-photo-9561300-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info" class="mb-5">
+        <div class="title-container text-center sm-col-12" id="product">
+            <h1 class="dancing-script">Product Category</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              fill="#feb03a"
+              class="bi bi-diamond-fill diamond-icon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435z"
+              />
+            </svg>
+            <div class="line-through"></div>
+          </div>
+    </section>
+
+    <section id="category">
+      <div class="container">
+          <div class="col-md-12">
+            <div class="row">
+              <div data-aos="fade-up"
+              data-aos-duration="3000" class="col-sm-3 text-center luxury cat-box m-auto mb-3 border border-dark">
+                <a href="#luxury" class="link">Luxury</a>
+              </div>
+              <div data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500" class="col-sm-3 text-center vintage cat-box m-auto mb-3 border border-dark">
+                <a href="#vintage" class="link">Vintage</a>
+              </div>
+              <div data-aos="fade-up"
+              data-aos-duration="3000" class="col-sm-3 text-center smart cat-box m-auto mb-3 border border-dark">
+                <a href="#smart" class="link">Smart Watch</a>
+              </div>
+              <div data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500" class="col-sm-3 text-center pocket cat-box m-auto mb-3 border border-dark">
+                <a href="#pocket" class="link">Pocket Watch</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section id="luxury">
+        <div class="title-container text-center sm-col-12" id="product">
+            <h1 data-aos="fade-up"
+            data-aos-duration="3000" class="dancing-script">Luxury watches</h1>
+          </div>
+          <br><br><br>
+          <div class="container">
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-sm-3 luxu">
+                  <div class="col-sm-12 lux-box1 h-75">
+                      <!-- your content here -->
+                      <div class="overlay"> <!-- add this overlay div -->
+                        <!-- your overlay content here -->
+                        <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#watchModal">View More</button>
+                      </div>
+                    </div>
+                  <div class="col-sm-12">
+                    <div class="lux-name text fw-bold ps-2 text-light ">
+                      Rolex leather 2000 straps
+                    </div>
+                    <div class="text-light p-2">
+                      <span class="text fs-5">$400</span>
+                      <button class="btn btn-outline-light float-end"> Buy</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 luxu">
+                  <div class="col-sm-12 lux-box2 h-75">
+                      <!-- your content here -->
+                      <div class="overlay"> <!-- add this overlay div -->
+                        <!-- your overlay content here -->
+                         <button data-bs-toggle="modal" data-bs-target="#watchModal2" class="btn btn-outline-light"> View More </button>
+                      </div>
+                    </div>
+
+                  <div class="col-sm-12">
+                    <div class="lux-name text fw-bold ps-2 text-light ">Omega</div>
+                    <div class="text-light p-2">
+                      <span class="text fs-5 fw-normal">$400</span>
+                      <button class="btn btn-outline-light float-end"> Buy</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 luxu">
+                  <div class="col-sm-12 lux-box3 h-75">
+                      <!-- your content here -->
+                      <div class="overlay"> <!-- add this overlay div -->
+                        <!-- your overlay content here -->
+                         <button data-bs-toggle="modal" data-bs-target="#watchModal3" class="btn btn-outline-light"> View More </button>
+                      </div>
+                    </div>
+
+                  <div class="col-sm-12">
+                    <div class="lux-name text fw-bold ps-2 text-light ">Cartier</div>
+                    <div class="text-light p-2">
+                      <span class="text fs-5 fw-normal">$400</span>
+                      <button class="btn btn-outline-light float-end"> Buy</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 luxu">
+                  <div class="col-sm-12 lux-box4 h-75">
+                      <!-- your content here -->
+                      <div class="overlay"> <!-- add this overlay div -->
+                        <!-- your overlay content here -->
+                         <button data-bs-toggle="modal" data-bs-target="#watchModal4" class="btn btn-outline-light"> View More </button>
+                      </div>
+                    </div>
+
+                  <div class="col-sm-12">
+                    <div class="lux-name text fw-bold ps-2 text-light ">Hublot</div>
+                    <div class="text-light p-2">
+                      <span class="text fs-5 fw-normal">$400</span>
+                      <button class="btn btn-outline-light float-end"> Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <br>
+
+    <!-- luxury - modal - Section -->
+     <!-- LUX-BOX1 -->
+    <div class="modal fade" id="watchModal" tabindex="-1" aria-labelledby="watchModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Luxury</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-image-container">
+              <img src="static/assets/luxury/pexels-nicida-12157290.jpg" class="w-100" alt="Image description">
+            </div>
+            <div class="modal-info">
+              <h5>Rolex</h5>
+              <p>Rolex leather 2000 straps</p>
+              <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- LUX-BOX2 -->
+    <div class="modal fade" id="watchModal2" tabindex="-1" aria-labelledby="watchModalLabel2" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Luxury</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-image-container">
+              <img src="static/assets/luxury/pexels-pixabay-47856.jpg" class="w-100" alt="Image description">
+            </div>
+            <div class="modal-info">
+              <h5>Omega</h5>
+              <p>vision max pro</p>
+              <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- LUX-BOX3 -->
+    <div class="modal fade" id="watchModal3" tabindex="-1" aria-labelledby="watchModalLabel3" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Luxury</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-image-container">
+              <img src="static/assets/luxury/pexels-pixelcop-2799533.jpg" class="w-100" alt="Image description">
+            </div>
+            <div class="modal-info">
+              <h5>Cartier</h5>
+              <p>Cartier straps</p>
+              <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- LUX-BOX-4 -->
+    <div class="modal fade" id="watchModal4" tabindex="-1" aria-labelledby="watchModalLabel4" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Luxury</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-image-container">
+              <img src="static/assets/luxury/pexels-smeet-chaudhari-3563940-5344004.jpg" class="w-100" alt="Image description">
+            </div>
+            <div class="modal-info">
+              <h5>Hublot</h5>
+              <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <section id="vintage" class="my-5">
+      <div class="title-container text-center sm-col-12" id="product">
+          <h1 data-aos="fade-up"
+          data-aos-duration="3000" class="dancing-script">Vintage watches</h1>
+        </div>
+        <br><br><br>
+        <div class="container">
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-sm-3 luxu">
+                <div class="col-sm-12 lux-box1 h-75">
+                  <div class="overlay"> <!-- add this overlay div -->
+                    <!-- your overlay content here -->
+                    <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#watchModal5">View More</button>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="lux-name text fw-bold ps-2 text-light ">
+                    Nandkumar-patel
+                  </div>
+                  <div class="text-light p-2">
+                    <span class="text fs-5">$400</span>
+                    <button class="btn btn-outline-light float-end"> Buy</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3 luxu">
+                <div class="col-sm-12 lux-box2 h-75">
+                  <div class="overlay"> <!-- add this overlay div -->
+                    <!-- your overlay content here -->
+                    <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#watchModal6">View More</button>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="lux-name text fw-bold ps-2 text-light ">Lucanardone</div>
+                  <div class="text-light p-2">
+                    <span class="text fs-5 fw-normal">$400</span>
+                    <button class="btn btn-outline-light float-end"> Buy</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3 luxu">
+                <div class="col-sm-12 lux-box3 h-75">
+                  <div class="overlay"> <!-- add this overlay div -->
+                    <!-- your overlay content here -->
+                    <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#watchModal7">View More</button>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="lux-name text fw-bold ps-2 text-light ">Cartier-vint</div>
+                  <div class="text-light p-2">
+                    <span class="text fs-5 fw-normal">$400</span>
+                    <button class="btn btn-outline-light float-end"> Buy</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3 luxu">
+                <div class="col-sm-12 lux-box4 h-75">
+                  <div class="overlay"> <!-- add this overlay div -->
+                    <!-- your overlay content here -->
+                    <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#watchModal8">View More</button>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="lux-name text fw-bold ps-2 text-light ">Hublot-vintage 4</div>
+                  <div class="text-light p-2">
+                    <span class="text fs-5 fw-normal">$400</span>
+                    <button class="btn btn-outline-light float-end"> Buy</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+<!-- vintage - modal - section -->
+
+ <!-- vin-BOX1 -->
+ <div class="modal fade" id="watchModal5" tabindex="-1" aria-labelledby="watchModalLabel5" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Vintage</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-image-container">
+          <img src="static/assets/vintage/pexels-lucanardone-3651587.jpg" class="w-100" alt="Image description">
+        </div>
+        <div class="modal-info">
+          <h5>Rolex</h5>
+          <p>Rolex leather 2000 straps</p>
+          <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- vin-BOX2 -->
+<div class="modal fade" id="watchModal6" tabindex="-1" aria-labelledby="watchModalLabel6" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Vintage</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-image-container">
+          <img src="static/assets/vintage/pexels-nandkumar-patel-1333170-3083461.jpg" class="w-100" alt="Image description">
+        </div>
+        <div class="modal-info">
+          <h5>Omega</h5>
+          <p>vision max pro</p>
+          <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- vin-BOX3 -->
+<div class="modal fade" id="watchModal7" tabindex="-1" aria-labelledby="watchModalLabel7" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Vintage</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-image-container">
+          <img src="static/assets/vintage/pexels-philip-lindvall-300724-1120275.jpg" class="w-100" alt="Image description">
+        </div>
+        <div class="modal-info">
+          <h5>Cartier</h5>
+          <p>Cartier straps</p>
+          <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- vin-BOX-4 -->
+<div class="modal fade" id="watchModal8" tabindex="-1" aria-labelledby="watchModalLabel8" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Vintage</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-image-container">
+          <img src="static/assets/vintage/pexels-pixabay-277319.jpg" class="w-100" alt="Image description">
+        </div>
+        <div class="modal-info">
+          <h5>Hublot</h5>
+          <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  -->
+  <br><br>
+  <section id="smart">
+    <div class="title-container text-center sm-col-12" id="product">
+        <h1 data-aos="fade-up"
+        data-aos-duration="3000" class="dancing-script">Smart Watches</h1>
+      </div>
+      <br><br><br>
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="row">
+            <div class="col-sm-3 luxu">
+              <div class="col-sm-12 lux-box1 h-75">
+                <div class="overlay"> <!-- add this overlay div -->
+                  <!-- your overlay content here -->
+                  <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#watchModal9">View More</button>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="lux-name text fw-bold ps-2 text-light ">
+                  i-watch
+                </div>
+                <div class="text-light p-2">
+                  <span class="text fs-5">$400</span>
+                  <button class="btn btn-outline-light float-end"> Buy</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 luxu">
+              <div class="col-sm-12 lux-box2 h-75">
+                <div class="overlay"> <!-- add this overlay div -->
+                  <!-- your overlay content here -->
+                  <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#watchModal10">View More</button>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="lux-name text fw-bold ps-2 text-light ">Samsung Gear</div>
+                <div class="text-light p-2">
+                  <span class="text fs-5 fw-normal">$400</span>
+                  <button class="btn btn-outline-light float-end"> Buy</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 luxu">
+              <div class="col-sm-12 lux-box3 h-75">
+                <div class="overlay"> <!-- add this overlay div -->
+                  <!-- your overlay content here -->
+                  <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#watchModal11">View More</button>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="lux-name text fw-bold ps-2 text-light ">huawei health tracker</div>
+                <div class="text-light p-2">
+                  <span class="text fs-5 fw-normal">$400</span>
+                  <button class="btn btn-outline-light float-end"> Buy</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 luxu">
+              <div class="col-sm-12 lux-box4 h-75">
+                <div class="overlay"> <!-- add this overlay div -->
+                  <!-- your overlay content here -->
+                  <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#watchModal12">View More</button>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="lux-name text fw-bold ps-2 text-light ">Hublot smart</div>
+                <div class="text-light p-2">
+                  <span class="text fs-5 fw-normal">$400</span>
+                  <button class="btn btn-outline-light float-end"> Buy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+<!-- smart - modal - section -->
+ <!-- smart-BOX1 -->
+ <div class="modal fade" id="watchModal9" tabindex="-1" aria-labelledby="watchModalLabel9" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Smart Watch</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-image-container">
+          <img src="static/assets/smart/pexels-tdcat-437037.jpg" class="w-100" alt="Image description">
+        </div>
+        <div class="modal-info">
+          <h5>Rolex</h5>
+          <p>Rolex leather 2000 straps</p>
+          <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- smart-BOX2 -->
+<div class="modal fade" id="watchModal10" tabindex="-1" aria-labelledby="watchModalLabel10" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Smart Watch</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-image-container">
+          <img src="static/assets/smart/pexels-zeleboba-19871489.jpg" class="w-100" alt="Image description">
+        </div>
+        <div class="modal-info">
+          <h5>Omega</h5>
+          <p>vision max pro</p>
+          <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- smart-BOX3 -->
+<div class="modal fade" id="watchModal11" tabindex="-1" aria-labelledby="watchModalLabel11" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Smart Watch</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-image-container">
+          <img src="static/assets/smart/rendering-smart-home-device.jpg" class="w-100" alt="Image description">
+        </div>
+        <div class="modal-info">
+          <h5>Cartier</h5>
+          <p>Cartier straps</p>
+          <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- smart-BOX-4 -->
+<div class="modal fade" id="watchModal12" tabindex="-1" aria-labelledby="watchModalLabel12" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Smart Watch</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-image-container">
+          <img src="static/assets/smart/smartwatch-screen-digital-device_53876-96833.jpg" class="w-100" alt="Image description">
+        </div>
+        <div class="modal-info">
+          <h5>Hublot</h5>
+          <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  -->
+<br><br>
+<section  id="pocket">
+  <div class="title-container text-center sm-col-12" id="product">
+      <h1 data-aos="fade-up"
+      data-aos-duration="3000" class="dancing-script">Pocket Watches</h1>
+    </div>
+    <br><br><br>
+    <div class="container">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-3 luxu">
+            <div class="col-sm-12 lux-box1 h-75">
+              <div class="overlay"> <!-- add this overlay div -->
+                <!-- your overlay content here -->
+                <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#watchModal13">View More</button>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="lux-name text fw-bold ps-2 text-light ">
+                Hamilton 992B
+              </div>
+              <div class="text-light p-2">
+                <span class="text fs-5">$400</span>
+                <button class="btn btn-outline-light float-end"> Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 luxu">
+            <div class="col-sm-12 lux-box2 h-75">
+              <div class="overlay"> <!-- add this overlay div -->
+                <!-- your overlay content here -->
+                <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#watchModal14">View More</button>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="lux-name text fw-bold ps-2 text-light ">
+                Waltham Pocket Watch
+              </div>
+              <div class="text-light p-2">
+                <span class="text fs-5 fw-normal">$400</span>
+                <button class="btn btn-outline-light float-end"> Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 luxu">
+            <div class="col-sm-12 lux-box3 h-75">
+              <div class="overlay"> <!-- add this overlay div -->
+                <!-- your overlay content here -->
+                <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#watchModal15">View More</button>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="lux-name text fw-bold ps-2 text-light ">
+                Ball Railroad Pocket Watch
+              </div>
+              <div class="text-light p-2">
+                <span class="text fs-5 fw-normal">$400</span>
+                <button class="btn btn-outline-light float-end"> Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 luxu">
+            <div class="col-sm-12 lux-box4 h-75">
+              <div class="overlay"> <!-- add this overlay div -->
+                <!-- your overlay content here -->
+                <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#watchModal16">View More</button>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="lux-name text fw-bold ps-2 text-light ">
+                Illinois Bunn Pocket Watch
+              </div>
+              <div class="text-light p-2">
+                <span class="text fs-5 fw-normal">$400</span>
+                <button class="btn btn-outline-light float-end"> Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- pocket watch - modal - section -->
+ <!-- pocket-BOX1 -->
+ <div class="modal fade" id="watchModal13" tabindex="-1" aria-labelledby="watchModalLabel13" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Pocket Watch</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-image-container">
+          <img src="static/assets/pocket/luxury-pendant-design-exquisite-elegant-timeless-statement-piece-fashion-connoisseurs_1020495-151391.avif" class="w-100" alt="Image description">
+        </div>
+        <div class="modal-info">
+          <h5>Rolex</h5>
+          <p>Rolex leather 2000 straps</p>
+          <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- pocket-BOX2 -->
+<div class="modal fade" id="watchModal14" tabindex="-1" aria-labelledby="watchModalLabel14" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Pocket Watch</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-image-container">
+          <img src="static/assets/pocket/pexels-david-bartus-43782-295884.jpg" class="w-100" alt="Image description">
+        </div>
+        <div class="modal-info">
+          <h5>Omega</h5>
+          <p>vision max pro</p>
+          <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- pocket-BOX3 -->
+<div class="modal fade" id="watchModal15" tabindex="-1" aria-labelledby="watchModalLabel15" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Pocket Watch</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-image-container">
+          <img src="static/assets/pocket/pexels-n-i-e-r-o-s-h-o-t-s-149821-3210711.jpg" class="w-100" alt="Image description">
+        </div>
+        <div class="modal-info">
+          <h5>Cartier</h5>
+          <p>Cartier straps</p>
+          <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- pocket-BOX-4 -->
+<div class="modal fade" id="watchModal16" tabindex="-1" aria-labelledby="watchModalLabel16" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Pocket Watch</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-image-container">
+          <img src="static/assets/pocket/small-silver-clock-white-surface (1).jpg" class="w-100" alt="Image description">
+        </div>
+        <div class="modal-info">
+          <h5>Hublot</h5>
+          <p><b>Features and Details:</b> This watch boasts a reliable automatic movement for accurate timekeeping. The scratch-resistant sapphire crystal glass ensures durability. Its suitable for everyday wear and light swimming.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+
+<br><br><br>
+<section id="info">
+  <div class="title-container text-center sm-col-12" id="product">
+      <h1 data-aos="fade-up"
+      data-aos-duration="3000" class="dancing-script">Technologies</h1>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="22"
+        height="22"
+        fill="#feb03a"
+        class="bi bi-diamond-fill diamond-icon"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435z"
+        />
+      </svg>
+      <div class="line-through"></div>
+    </div>
+</section>
+<section id="technology">
+<div class="container py-5">
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+      <!-- Technology Card 1 -->
+      <div class="col">
+          <div class="card technology-card">
+              <div class="card-body">
+                  <h5 class="card-title">Water Resistance</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+          </div>
+      </div>
+      <!-- Technology Card 2 -->
+      <div class="col">
+          <div class="card technology-card">
+              <div class="card-body">
+                  <h5 class="card-title">Sapphire Crystal</h5>
+                  <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+          </div>
+      </div>
+      <!-- Technology Card 3 -->
+      <div class="col">
+          <div class="card technology-card">
+              <div class="card-body">
+                  <h5 class="card-title">Automatic Movement</h5>
+                  <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+          </div>
+      </div>
+      <!-- Technology Card 4 -->
+      <div class="col">
+          <div class="card technology-card">
+              <div class="card-body">
+                  <h5 class="card-title">Chronograph Function</h5>
+                  <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+
+
+
+
+<section id="about_contact">
+  <section id="info">
+    <div class="title-container text-center sm-col-12" id="product">
+        <h1 data-aos="fade-up"
+        data-aos-duration="3000" class="dancing-script text-light">Contact US</h1>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="22"
+          height="22"
+          fill="#feb03a"
+          class="bi bi-diamond-fill diamond-icon"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435z"
+          />
+        </svg>
+        <div class="line-through"></div>
+      </div>
+  </section>
+  <div class=" py-5 text-light">
+    <div class="row">
+        <!-- About Section -->
+        <div class="col-sm-6">
+            <div class="company-location">
+              <h3 class="text-center">Location</h3>
+              <div class="map-section">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.4981869176922!2d3.2353293741837867!3d6.708889020982907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b995b41b7dd6d%3A0xb6c08985374e0e09!2sAptech%20Computer%20Education%20-Sango%20Ota!5e0!3m2!1sen!2sng!4v1719543555419!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" class="w-100 rounded" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+        </div>
+        <!-- Contact Section -->
+        <div class="col-md-6">
+            <div class="contact-section">
+                <form>
+                    <div class="mb-3">
+                        <input type="email" class="form-control mt-3" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                        <textarea name="repair" id="repair" class="form-control mt-3" placeholder="Enter Your Message"></textarea>
+                        <div id="emailHelp" class="form-text text-light">We do Repair Services. You Can Also Make Enquries</div>
+                    </div>
+                    <button type="submit" class="btn btn-outline-warning">Submit</button>
+                </form>
+                <div class="about-section">
+                  <p>Discover the exquisite craftsmanship of Alberto Watches and Clocks, where precision meets elegance.</p>
+                  <p>For inquiries or more information, please contact us at <a href="mailto:info@albertowatchesandclocks.com" style="color: white;">info@albertoclocks.com</a> or <span>+234567288292</span></p>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+<div id="ticker-container">
+  <marquee behavior="scroll" direction="left" style="bottom: 0; position: fixed; background-color: #fff; padding: 10px; width: 100%;">
+    <span id="ticker-content">Loading...</span>
+  </marquee>
+</div>
+
+  <!-- Site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <p class="text-justify">Alberto Clocks <i>TIMEKEEPING REDEFINED</i> is a pioneering venture that revolutionizes the way we perceive time. Alberto Clocks is dedicated to crafting innovative timepieces that harmonize functionality with elegance. Our mission is to provide exceptional clocks that not only keep precise time but also enhance the aesthetic of any setting. We strive to push the boundaries of horology, combining traditional craftsmanship with modern technology. Our commitment is to deliver timekeeping excellence that resonates with sophistication and style.</p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Site Maps</h6>
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Technologies</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="#">Luxury</a></li>
+            <li><a href="#">Vintage</a></li>
+            <li><a href="#">Smart Watch</a></li>
+            <li><a href="#">Pocket Watch</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by 
+       <a href="#">Alberto Clocks</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="bi bi-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="bi bi-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="bi bi-dribbble"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="bi bi-linkedin"></i></a></li>   
+          </ul>
+        </div>
+        <br><br><br><br><br>
+      </div>
+    </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="static/js/watch.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
